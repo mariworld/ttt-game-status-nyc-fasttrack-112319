@@ -26,7 +26,7 @@ def won?(board)
     end
     if (pos_1 == "X" && pos_2 == "X" && pos_3 == "X") or (pos_1 == "O" && pos_2 == "O" && pos_3 == "O")
         return combo
-        else
+    else
             return false
         end
     end
