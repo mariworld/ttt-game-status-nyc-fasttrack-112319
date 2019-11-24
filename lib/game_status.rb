@@ -23,10 +23,10 @@ def won?(board)
         pos_1 = board[win_index_1]
         pos_2 = board[win_index_2]
         pos_3 = board[win_index_3]
-    end
-    if (pos_1 == "X" && pos_2 == "X" && pos_3 == "X") or (pos_1 == "O" && pos_2 == "O" && pos_3 == "O")
-        return combo
-    else
-        return false
+        if (pos_1 == "X" && pos_2 == "X" && pos_3 == "X") or (pos_1 == "O" && pos_2 == "O" && pos_3 == "O")
+            return combo
+        else
+            return false
+        end
     end
 end
