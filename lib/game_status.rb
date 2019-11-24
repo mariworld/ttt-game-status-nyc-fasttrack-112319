@@ -20,7 +20,6 @@ def won?(board)
         win_index_1 = combo[0]
         win_index_2 = combo[1]
         win_index_3 = combo[2]
-
         pos_1 = board[win_index_1]
         pos_2 = board[win_index_2]
         pos_3 = board[win_index_3]
